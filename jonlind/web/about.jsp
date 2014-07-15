@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>Jon Lind</title>
+    <title>Jon Lind - About</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,8 +35,12 @@
        	<div class="row">
 
 			<div class="content col-sm-12 col-lg-12 col-xl-12">
-				<h1>Pictures by Jon Lind</h1>
-				<h3><a href="mailto:contact@jonlind.dk">Contact</a></h3>
+				<h3>Photos by Jon Lind</h3>
+				<p>All but a few dance photos are shot by Jon Lind. Photos, that are not, are shot by Jette Guldbæk.</p>
+				<p>Photos will be updated regularly - Stay tuned!</p>
+				<br/>
+				<p>/Jon Lind</p>
+				<p><a href="mailto:contact@jonlind.dk">Send email</a></p>
 			</div><!--/span-->  
 
 

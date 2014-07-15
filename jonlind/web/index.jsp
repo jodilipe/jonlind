@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>Jon Lind</title>
+    <title>Jon Lind<%= request.getParameter("category") != null ? " - " + request.getParameter("category") : "" %></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,13 +38,12 @@
 		<% if (!thumbs.isEmpty()) { %>
 			<% for (String thumb : thumbs) { %>
 				<div class="thumbnail col-xs-6 col-sm-6 col-md-4 col-lg-3">
-					<p><a href="preview.jsp?filename=<%= thumb %>&category=<%= request.getParameter("category") %>"><img border="0" src="./thumb/<%= thumb %>" title="<%= thumb %>"></a></p>
-					<p><span class="img_description"><%= thumb %></span></p>
+					<p><a href="preview.jsp?filename=<%= thumb %>&category=<%= request.getParameter("category") %>"><img class="jl_thumbnail" border="0" src="./thumb/<%= thumb %>" title="<%= thumb %>"></a></p>
 				</div>
 			<% } %>
 		<% } else { %>
 			<div class="content col-sm-12 col-lg-12 col-xl-12">
-				<h1>Pictures by Jon Lind</h1>
+				<h3>Jon Lind Photography</h3>
 			</div><!--/span-->  
 		<% } %>
 

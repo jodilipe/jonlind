@@ -43,7 +43,8 @@ public class PictureFileUtil {
 	public static void main(String[] args) {
 		// Folder pictures = new PictureFileUtil().getPictures();
 //		Map<String, String> result = new PictureFileUtil().getExifInfo("/Users/jon/workspace_private/pics/web/picture/toby.jpg");
-		Map<String, String> result = new PictureFileUtil().getExifInfo("/Users/jon/workspace_private/pics/web/picture/2012-09-15_12-21-04.jpg");
+		Map<String, String> result = new PictureFileUtil().getImageMetaData("/Users/jon/workspace/jonlind/jonlind/web/picture/Dance/2013-05-26_17-42-49_D800.jpg");
+//		Map<String, String> result = new PictureFileUtil().getExifInfo("/Users/jon/workspace/jonlind/jonlind/web/picture/Dance/2013-05-26_17-42-49_D800.jpg");
 		List<String> keys = new ArrayList<String>();
 		keys.addAll(result.keySet());
 		Collections.sort(keys);
